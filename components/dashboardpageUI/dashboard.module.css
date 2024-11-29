@@ -1,0 +1,129 @@
+.maindiv{
+    display: flex;
+    top: 60px; 
+    left: 0px;
+    overflow-y: hidden;
+}
+/* Side Nav bar */
+.sidenav{ 
+    width:  200px; 
+    height: 100vh;
+    padding: 30px; 
+    box-sizing: border-box; 
+    background-color: #F0F3FA;    
+}
+.sidenav:hover{
+    box-shadow: 24px 2px 21px -21px rgba(0,0,0,0.1);
+}
+.contentdiv{
+    width: 100%; 
+    /* padding: 20px; */
+    padding-right: 20px;
+    height: 100vh;
+    overflow-y: scroll;
+}
+.items{
+    list-style-type: none;
+}
+.items li{
+    margin: 40px 0px; 
+    cursor: pointer;
+    color: #00206B;
+    font-size: 20px;
+    font-weight: 700;
+}
+.profilediv{
+    margin-top: 250px; 
+    bottom: 0;
+    /* display: flex; 
+    justify-content: center;  */
+    text-align: end;
+}
+
+/* Welcome Div */
+.welcomediv{
+    display: flex; 
+    padding: 10px;
+    /* margin-bottom: 20px; */
+    align-items: center;
+    padding: 24px 0;
+}
+.welcomediv .leftdiv{
+    width: 50%; 
+    padding-left: 30px;
+}.welcomediv .rightdiv{
+    width: 50%;
+}
+.maintitle{ 
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.text{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+/* Blogs Div */
+.title{ 
+    text-align: center;
+    font-size: 30px; 
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.blogsdiv{
+    display: flex; 
+    padding: 10px;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.blog{
+    width: 25%;
+    border: 2px solid #00206B;
+    border-radius: 10px;
+    padding: 10px;
+}
+.blogtitle{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Announcement Div */
+.announcediv{
+    /* border: 2px solid #00206B; */
+    /* border-radius: 10px; */
+    padding: 20px;
+    max-height: 360px;
+    overflow-y: auto;
+}
+.announcediv .infodiv{
+    display: flex; 
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.infodiv .left{
+    width: 75%;
+}
+.announcetitle, .announcedate{
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 3px;
+}
+.announcetext{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+} 
+.infodiv .right{
+    width: 25%;
+    text-align: right;
+    padding-right: 10px;
+}
+.line{
+    background-color: #00206B;
+    width: 100%;
+    height: 2px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,17 @@
+.maindiv{
+    padding: 50px; 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.copyright{
+    width: 50%;
+    font-size: medium;
+    font-weight: 600;
+}
+.icons{
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}

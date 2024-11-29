@@ -1,0 +1,30 @@
+.maindiv{ 
+    padding: 50px 20px; 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.leftdiv{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.rightdiv{ 
+    width: 50%; 
+    text-align: center;   
+}
+.maintitle{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+.getstarted{ 
+    color:  #F0F3FA;
+    background-color: black;
+    border: 1px solid black; 
+    border-radius: 10px;
+    font-size: 16px; 
+    padding: 10px 20px; 
+    cursor: pointer;
+}

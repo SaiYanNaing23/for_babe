@@ -1,0 +1,81 @@
+.maindiv{
+    display: flex;
+    top: 60px; 
+    left: 0px;
+}
+.contentdiv{
+    width: 100%; 
+    padding: 20px;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+/* My Schedule Div */
+.title{ 
+    text-align: center;
+    font-size: 30px; 
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+.text{
+    font-size: 18px;
+    border: 2px solid #00206B;
+    border-radius: 8px;
+    /* box-shadow: 5px 8px 5px hsl(0, 0%, 30%); */
+    padding: 20px;
+    margin-bottom: 40px; 
+}
+
+
+/* My Matches Div */
+.matches{
+    display: flex; 
+    justify-content: space-evenly;
+}
+.mentor{
+    border: 2px solid #00206B;
+    border-radius: 10px; 
+    padding: 30px;
+    margin: 10px; 
+    max-width: 300px;
+    display: inline-block;
+}
+
+.mentor:hover{
+    box-shadow: 5px 6px 23px -8px rgba(117,113,117,1);;
+    cursor: pointer;
+}
+.mentor .image{
+    max-width: 80%; 
+    height: auto; 
+    border: 1px solid #00206B;
+    margin: auto;
+}
+.mentor .name{
+    font-size: 20px; 
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.mentor .jobtitle{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.mentor .experience{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.button{
+    color:  #F0F3FA;
+    background-color: black;
+    border: 1px solid black; 
+    border-radius: 10px;
+    font-size: 16px; 
+    padding: 10px; 
+    cursor: pointer;
+    margin-top: 30px;
+    display: block;       
+    margin: auto;  
+}

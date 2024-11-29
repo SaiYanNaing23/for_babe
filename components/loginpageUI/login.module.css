@@ -1,0 +1,70 @@
+.wholediv{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 9%, rgba(9,9,121,1) 28%, rgba(205,0,255,1) 80%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}
+.maindiv{
+    background-color: #F0F3FA;
+    border-radius: 20px;
+    width: 60%; 
+    height: 500px; 
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.leftdiv, .rightdiv{
+    width: 50%; 
+}
+.title{ 
+    text-align: center;
+    font-size: 30px; 
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.form{ 
+    padding-left: 50px;
+}
+.labels{ 
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 10px;
+}
+.input{ 
+    width: 80%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #00246B;
+    border-radius: 5px;
+}
+.showpsw{ 
+    padding-left: 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.login{
+    color:  #F0F3FA;
+    background-color: black;
+    border: 1px solid black; 
+    border-radius: 10px;
+    font-size: 16px; 
+    padding: 10px 20px; 
+    cursor: pointer;
+    margin-top: 30px;
+    display: block;       
+    margin-right: auto;  
+    margin-left: auto;   
+}
+.links{
+    padding: 30px 50px;
+    font-weight: 500;
+    display: flex; 
+    justify-content: space-between;
+}

@@ -1,0 +1,55 @@
+.maindiv{
+    display: flex;
+    top: 60px; 
+    left: 0px;
+}
+.contentdiv{
+    width: 100%; 
+    padding: 20px;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+/* Explore Div */
+.maintitle{
+    font-size: 30px; 
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+.searchbar{ 
+    width: 30%; 
+    height: 40px;
+    border: 1px solid #00206B;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.searchbar::placeholder{
+    color: #00206B;
+}
+
+/* Mentors */
+.titlelist{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.title{
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+    border: 1px solid #00206B;
+    border-radius: 10px;
+}
+.titleactive{
+    background-color: #00206B;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+
+}

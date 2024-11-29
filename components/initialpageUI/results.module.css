@@ -1,0 +1,27 @@
+.title{
+    font-size: 30px; 
+    font-weight: 800;
+    text-align: center;
+}
+.main{ 
+    display: flex; 
+    justify-content: space-between;
+    margin: 60px; 
+}
+.branch{ 
+    width: 22%; 
+    text-align: center;
+    padding: 60px 40px; 
+    background-color: #00246B;
+    color: #F0F3FA;
+    border-radius: 20px; 
+}
+.num{
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.text{ 
+    font-size: 24px;
+    font-weight:400;
+}

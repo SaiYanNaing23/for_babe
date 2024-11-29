@@ -1,0 +1,82 @@
+.formdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 50px;
+    padding-top: 100px;
+}
+
+/* Left Div (Form) */
+.labels{ 
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.input, .dropdown{ 
+    width: 300px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #00246B;
+    border-radius: 5px;
+}
+
+/* Right Div (User Profile) */
+.profilediv{
+    display: flex;
+    gap: 40px;
+}
+.profileimg{
+    max-width: 120px; 
+    height: auto;
+    border-radius: 50%;
+    margin: auto;
+}
+.name, .jobtitle{
+    font-size: 24px;
+    font-weight: 800;
+    text-align: start;
+    line-height: 50px;
+}
+.line{
+    width: 700px; 
+    height: 2px; 
+    background-color: #00206B;
+    margin: 30px 0px;
+}
+
+/* Info Div */
+
+/* Bio */
+.title{ 
+    font-size: 22px; 
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.smalltitle{
+    font-size: 20px; 
+    font-weight: 600;
+    line-height: 40px;
+}
+.text{
+    font-size: 18px; 
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+/* Button */
+.button{
+    color:  #F0F3FA;
+    background-color: black;
+    border-radius: 10px;
+    font-size: 16px; 
+    padding: 10px 20px; 
+    cursor: pointer;
+    width: 150px;
+    align-self: center;
+}
+
+
+

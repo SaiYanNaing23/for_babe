@@ -1,0 +1,24 @@
+.nav{ 
+    padding: 10px 15px; 
+    display: flex;
+    align-items: center;
+}
+.logodiv{
+    width: 80%;
+}
+.notidiv{
+    width: 5%;
+}
+.btndiv{
+    width: 15%;
+}
+.browse{
+    color:  #F0F3FA;
+    background-color: black;
+    border: 1px solid black; 
+    border-radius: 10px;
+    font-size: 16px; 
+    padding: 10px 20px; 
+    cursor: pointer;
+}
+
